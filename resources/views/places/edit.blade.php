@@ -11,7 +11,7 @@
     <form action="/places/update/{{ $place->id }}" method="post">
         @csrf
         <input name="name" placeholder="Nome" value="{{ $place->name }}">
-        <input name="address" placeholder="Endereço"  value="{{ $place->description }}">
+        <input name="description" placeholder="Endereço"  value="{{ $place->description }}">
         <input type="text" name="address" placeholder="Endereço"  value="{{ $place->address }}"><br><br>
         <input type="submit" value="Enviar">
         <a href="/places/delete/{{ $place->id }}"><button>Deletar</button></a>

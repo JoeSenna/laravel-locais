@@ -8,8 +8,7 @@
 </head>
 <body>
     <h1>Editar Local</h1>
-    <!-- <form action="/places/update/{{ $place->id }}" method="post"> -->
-    <form action="/places/update/{{id}}" method="post">
+    <form action="/places/update/{{ $place->id }}" method="post">
         @csrf
         <input name="name" placeholder="Nome" value="{{ $place->name }}">
         <br><br>

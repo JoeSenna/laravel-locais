@@ -15,7 +15,7 @@
     </ul>
 
     <a href="/places/edit/{{ $place->id }}"><button>Editar</button></a>
-    <a href="/places/destroy/{{ $place->id }}"><button>Deletar</button></a>
+    <a href="/places/delete/{{ $place->id }}"><button>Deletar</button></a>
     <a href="/places/"><button>Voltar</button></a>
     
 </body>
